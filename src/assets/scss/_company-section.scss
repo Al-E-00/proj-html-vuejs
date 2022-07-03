@@ -1,0 +1,36 @@
+.background-company-section {
+    background-color: rgb(14, 14, 18);
+}
+
+.row {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    color: white;
+}
+
+.col {
+    .about-company-section {
+        font-weight: 600;
+        font-size: .7rem;
+        text-transform: uppercase;
+        color: var(--primary-color)
+    }
+    .title-company-section {
+        font-weight: 700;
+        font-size: 2.8rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .custom-title-style {
+        background-color: rgba(34, 111, 111, 0.378);
+        border-radius: .2rem;
+        padding: 0 .7rem;
+    }
+
+    .text-company-section {
+        font-size: .8rem;
+        color: var(--text-color-secondary);
+    }
+
+}

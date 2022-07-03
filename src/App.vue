@@ -3,6 +3,7 @@
     <InfoBanner />
     <Header />
     <LogisticsServices />
+    <CompanySection />
   </div>
 </template>
 
@@ -10,6 +11,7 @@
 import InfoBanner from './components/InformationBanner.vue';
 import Header from './components/TheHeader.vue';
 import LogisticsServices from './components/LogisticsServices.vue';
+import CompanySection from './components/CompanySection.vue';
 
 
 export default {
@@ -17,7 +19,8 @@ export default {
   components: {
     Header,
     InfoBanner,
-    LogisticsServices
+    LogisticsServices,
+    CompanySection
 }
 }
 </script>
