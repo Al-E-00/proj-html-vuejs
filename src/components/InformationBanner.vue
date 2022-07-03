@@ -40,16 +40,12 @@
 
 <script>
 export default {
-    data() {
-        return {
 
-        }
-    }
 
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" >
 @import '../assets/scss/information-banner';
 
 </style>
