@@ -31,17 +31,20 @@ export default {
                 {
                     title: 'Leadership',
                     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-                    percentage: '0%'
+                    percentage: '0',
+                    percentageSymbol: '%'
                 },
                 {
                     title: 'Psychology',
                     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-                    percentage: '0%'
+                    percentage: '0',
+                    percentageSymbol: '%'
                 },
                 {
                     title: 'Flexibility',
                     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-                    percentage: '1%'
+                    percentage: '1',
+                    percentageSymbol: '%'
                 }
             ]
         }
