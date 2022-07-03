@@ -7,6 +7,7 @@
     <LogoSection />
     <LatestNewsSection />
     <NewsLetterSection />
+    <GetInTouchSection />
   </div>
 </template>
 
@@ -18,6 +19,7 @@ import CompanySection from './components/CompanySection.vue';
 import LogoSection from './components/LogoSection.vue';
 import LatestNewsSection from './components/LatestNewsSection.vue';
 import NewsLetterSection from './components/NewsLetterSection.vue';
+import GetInTouchSection from './components/GetInTouchSection.vue';
 
 
 export default {
@@ -29,7 +31,8 @@ export default {
     CompanySection,
     LogoSection,
     LatestNewsSection,
-    NewsLetterSection
+    NewsLetterSection,
+    GetInTouchSection
 }
 }
 </script>

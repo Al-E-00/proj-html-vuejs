@@ -1,5 +1,5 @@
 <template>
-    <div class="custom-card" @hover="OnHover">
+    <div class="custom-card">
         <img :src="cardInfo.img" :alt="cardInfo.name">
         <h4>
             {{ cardInfo.text }}
