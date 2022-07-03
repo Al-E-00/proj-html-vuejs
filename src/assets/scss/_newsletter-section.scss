@@ -1,0 +1,56 @@
+.background-newsletter-section {
+    background-image: url('~/src/assets/img/bg-1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.row {
+    padding: 8rem 6rem;
+}
+
+.text-style {
+    .newsletter-intro {
+        font-weight: 600;
+        font-size: .7rem;
+        text-transform: uppercase;
+        color: var(--primary-color);
+    }
+
+    h6 {
+        font-size: 2.8rem;
+        font-weight: 700;
+        padding: 1rem 0;
+        color: white;
+        .title-stylized {
+            background-color: rgba(34, 111, 111, 0.378);
+            border-radius: .2rem;
+            padding: 0 .7rem;
+        }
+    }
+
+    p {
+        font-size: .8rem;
+        color: var(--text-color-secondary);
+        margin: 0;
+    }
+
+}
+
+.input-style {
+    input {
+        background-color: rgba(183, 183, 183, 0.482);
+        border: 0;
+    }
+    label {
+        color: rgb(75, 75, 75);
+        font-size: 1rem;
+        font-weight: 300;
+    }
+    button {
+        margin-top: 1rem;
+        padding: .4rem 1rem;
+        text-transform: uppercase;
+        font-size: .7rem;
+        font-weight: 400;
+    }
+}

@@ -6,6 +6,7 @@
     <CompanySection />
     <LogoSection />
     <LatestNewsSection />
+    <NewsLetterSection />
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import LogisticsServices from './components/LogisticsServices.vue';
 import CompanySection from './components/CompanySection.vue';
 import LogoSection from './components/LogoSection.vue';
 import LatestNewsSection from './components/LatestNewsSection.vue';
+import NewsLetterSection from './components/NewsLetterSection.vue';
 
 
 export default {
@@ -26,7 +28,8 @@ export default {
     LogisticsServices,
     CompanySection,
     LogoSection,
-    LatestNewsSection
+    LatestNewsSection,
+    NewsLetterSection
 }
 }
 </script>
