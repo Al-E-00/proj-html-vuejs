@@ -3,12 +3,13 @@
 }
 
 .row {
-    padding-top: 7rem;
-    padding-bottom: 7rem;
     color: white;
 }
 
 .col {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 14rem;
     .about-company-section {
         font-weight: 600;
         font-size: .7rem;
@@ -31,6 +32,19 @@
     .text-company-section {
         font-size: .8rem;
         color: var(--text-color-secondary);
+        padding-bottom: .5rem;
     }
+}
 
+.col-right {
+    position: relative;
+
+    .background-left-company-section{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;   
+        object-fit: cover;
+    }
 }

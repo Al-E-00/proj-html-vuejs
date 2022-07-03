@@ -32,6 +32,8 @@ export default {
     align-self: center;
     position: relative;
     display: block;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
     height: 60px;
     width: 60px;
     line-height: 60px;
@@ -62,5 +64,20 @@ export default {
     border-radius: 50%;
     border: 5px solid rgb(27, 26, 30);
     z-index: 1;
+}
+
+.text-company-value {
+    padding-left: 1.5rem;
+    align-self: center;
+    h6 {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    p {
+        font-size: .8rem;
+        font-weight: 300;
+        color: var(--text-color-secondary);
+        margin: 0;
+    }
 }
 </style>
