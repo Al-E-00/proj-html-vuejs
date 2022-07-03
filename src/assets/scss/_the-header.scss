@@ -1,7 +1,7 @@
 @import './custom-variables';
 
 .background-the-header{
-    background-image: url("~/src/assets/img/jumbo.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("~/src/assets/img/jumbo.jpg");
     position: relative;
     background-size: cover;
 }

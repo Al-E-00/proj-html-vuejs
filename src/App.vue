@@ -5,6 +5,7 @@
     <LogisticsServices />
     <CompanySection />
     <LogoSection />
+    <LatestNewsSection />
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import Header from './components/TheHeader.vue';
 import LogisticsServices from './components/LogisticsServices.vue';
 import CompanySection from './components/CompanySection.vue';
 import LogoSection from './components/LogoSection.vue';
+import LatestNewsSection from './components/LatestNewsSection.vue';
 
 
 export default {
@@ -23,7 +25,8 @@ export default {
     InfoBanner,
     LogisticsServices,
     CompanySection,
-    LogoSection
+    LogoSection,
+    LatestNewsSection
 }
 }
 </script>
