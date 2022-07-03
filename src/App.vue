@@ -1,15 +1,24 @@
 <template>
   <div>
-    
+    <InfoBanner />
+    <Header />
   </div>
 </template>
 
 <script>
-export default {
+import InfoBanner from './components/InformationBanner.vue';
+import Header from './components/TheHeader.vue';
 
+
+export default {
+  name: 'App',
+  components: {
+    Header,  InfoBanner, 
+  }
 }
 </script>
 
-<style>
+<style lang="scss">
+@import './assets/scss/main';
 
 </style>
