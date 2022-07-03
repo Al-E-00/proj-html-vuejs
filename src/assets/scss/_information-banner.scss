@@ -1,6 +1,4 @@
-:root {
-    --text-color: rgb(178, 182,	197);
-}
+@import './custom-variables';
 
 .background-banner {
     background-color: rgb(26, 39,	47);
@@ -9,12 +7,12 @@
 .text-style-banner {
     padding: .7rem;
     margin: 0;
-    color: var(--text-color);
+    color: var(--text-color-secondary);
     font-weight: 200;
     font-size: .9rem;
+    
     a {
-        color: var(--text-color);
-        padding-left: 2rem;
+        color: var(--text-color-secondary);
         text-decoration: none;
     }
 }

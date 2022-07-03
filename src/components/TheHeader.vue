@@ -2,16 +2,16 @@
     <div>
         <div class="background-the-header">
             <div class="container">
-                <div class="custom-view-width">
-                    <div class="row">
-                        <div class="col-3">
-                            <h1>nexgen</h1>
+                    <div class="row navbar-row">
+                        <div class="col align-self-center">
+                            <span id="logo-start">nex </span> <span id="logo-end">gen</span> 
                         </div>
-                        <div class="col ps-5">
+                        <div class="col ps-5 d-flex">
                             <ul class="d-flex gap-5">
                                 <li v-for="(section, i) in siteSection" :key="i">
                                     <a :href="section.url">{{section.title}}</a>
                                 </li>
+                                <button class="btn btn-primary">Get in  touch</button>
                             </ul>
                         </div>
                     </div>
@@ -30,7 +30,6 @@
                             </div>
                         </div>
                     </div>
-                </div>
             </div>
         </div>
     </div>
@@ -67,11 +66,6 @@ export default {
                     title: 'Blog',
                     url: '/blog'
                 },
-                {
-                    name: 'get in touch',
-                    title: 'Get in Touch',
-                    url: '/get-in-touch'
-                }
             ]
         }
     }
