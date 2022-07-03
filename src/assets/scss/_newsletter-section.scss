@@ -40,6 +40,11 @@
     input {
         background-color: rgba(183, 183, 183, 0.482);
         border: 0;
+        transition: background-color .2s ease-in-out;
+        
+        &:focus {
+            background-color: white;
+        }
     }
     label {
         color: rgb(75, 75, 75);

@@ -18,7 +18,7 @@
                             <label for="floatingInput">Name</label>
                         </div>
                         <div class="form-floating">
-                            <input type="password" class="form-control" id="floatingPassword" placeholder="Email">
+                            <input type="email" class="form-control" id="floatingPassword" placeholder="Email">
                             <label for="floatingPassword">Email</label>
                         </div>
                         <button class="btn btn-primary">Subscribe</button>
