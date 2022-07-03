@@ -3,14 +3,14 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <span>Our editorial content</span>
-                    <h3>Latest <span>News</span></h3>
-                    <div class="section-latest-news-description d-flex justify-content-between">
+                    <span class="editorial-intro">Our editorial content</span>
+                    <h3>Latest <span class="title-stylized">News</span></h3>
+                    <div class="section-latest-news-description d-flex justify-content-between align-items-center">
                         <p>Every week we publish content about what is best in the business world.</p>
                         <button class="btn btn-primary">See all</button>
                     </div>
                     <div class="card-news-display">
-                        <CardNews v-for='card in CardNews' :key="card.name" :cardInfo="card"/>
+                        <CardNews v-for='card in CardNews' :key="card.name" :cardInfo="card" />
                     </div>
                 </div>
             </div>
@@ -53,5 +53,4 @@ export default {
 
 <style lang="scss" scoped>
 @import '../assets/scss/latest-news';
-
 </style>

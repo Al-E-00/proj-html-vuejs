@@ -1,5 +1,5 @@
 <template>
-    <div class="custom-card">
+    <div class="custom-card" @hover="OnHover">
         <img :src="cardInfo.img" :alt="cardInfo.name">
         <h4>
             {{ cardInfo.text }}
@@ -16,8 +16,8 @@ export default {
             type: Object,
             required: true
         }
-    },
-}
+    }
+}   
 </script>
 
 <style lang="scss" scoped>
@@ -39,7 +39,7 @@ export default {
         padding: 3rem 2rem;
         color: white;
         text-align: center;
-        z-index: 2;
+        z-index: 1;
     }
 
     .opacity {
@@ -51,6 +51,12 @@ export default {
         background-color: rgba(0, 0, 0, 0.5);
         border-radius: .8rem;
         z-index: 0;
+        transition: background-color .3s ease-in-out;
+
+        &:hover {
+            cursor: pointer;
+            background-color: rgba(0, 0, 0, 0);
+        }
     }
 
 }
