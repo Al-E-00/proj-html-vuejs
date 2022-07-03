@@ -15,18 +15,18 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row container-row ">
                         <div class="col-6"></div>
-                        <div class="col">
+                        <div class="col text-row">
                             <h1>
-                                Logistics that goes further
+                                <span class="stylized-main-text">Logistics </span> that goes further.
                             </h1>
-                            <p>
-                                For 20 years working with the most innovative in the field of transport
+                            <p class="text-secondary">
+                                For 20 years working with the most innovative in the field of transport.
                             </p>
-                            <div class="button-section">
+                            <div class="button-section gap-3">
                                 <button class="btn btn-primary">Get in touch</button>
-                                <button class="btn btn-outline-primary">Read more</button>
+                                <button class="btn btn-outline-primary ms-3">Read more</button>
                             </div>
                         </div>
                     </div>
@@ -72,7 +72,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 @import "../assets/scss/the-header";
 
 </style>

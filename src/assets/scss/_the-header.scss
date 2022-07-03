@@ -1,17 +1,13 @@
 @import './custom-variables';
 
-.background-the-header::after {
-    content: "";
+.background-the-header{
     background-image: url("~/src/assets/img/jumbo.jpg");
-    opacity: 0.5;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;
+    position: relative;
+    background-size: cover;
 }
 
+
+/* navbar section */
 .navbar-row {
     padding-top: 1.2rem;
 
@@ -57,4 +53,43 @@
         }
     }
 
+}
+
+/* content section */
+
+.container-row {
+    .text-row {
+        padding-left: 10rem;
+        padding-right: 7rem;
+        padding-top: 8rem;
+        padding-bottom: 8rem; 
+
+        h1 {
+            color: white;
+            font-weight: 900;
+            font-size: 4rem;
+            width: 90%;
+            .stylized-main-text{
+                position: relative;
+                z-index: 1;
+            }
+            .stylized-main-text::after {
+                content: "";
+                position: absolute;
+                left: 0;
+                bottom: .7rem;
+                height: 35%;
+                width: 100%;
+                opacity: .7;
+                background-color: var(--primary-color);
+                z-index: -1;
+            }
+        }
+
+        p {
+            width: 75%;
+            font-weight: 400;
+        }
+        
+    }
 }
