@@ -1,0 +1,23 @@
+.background-logo-section {
+    background-color: var(--co-primary-color);
+}
+
+ul {
+    padding: 5rem 4rem;
+    margin: 0;
+    list-style: none;
+    justify-content: space-evenly;
+
+    li {
+        width: 5rem;
+        align-self: center;
+    }
+    img {
+        cursor: pointer;
+        opacity: .4;
+        width: 100%;
+        &:hover {
+            opacity: 1;
+        }
+    }
+}
