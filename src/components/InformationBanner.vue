@@ -6,29 +6,29 @@
                     <div class="col">
                         <p class="text-style-banner"> 
                             <a href="#">
-                                <i class="fa-solid fa-clock"></i>
+                                <i class="fa-solid fa-clock pe-1 fa-xs"></i>
                             </a> 
                             Open Hours: Mon - Sat - 9:00 - 18:00
                         </p>
                     </div>
-                    <div class="col">
+                    <div class="col text-end ">
                         <p class="text-style-banner">
                             <a href="#">
-                                <i class="fa-solid fa-phone"></i>
+                                <i class="fa-solid fa-phone pe-1 fa-xs"></i>
                                 +1 (305) 1234-5678
                             </a>
                             <a href="#">
-                                <i class="fa-solid fa-envelope"></i>
+                                <i class="fa-solid fa-envelope pe-1 fa-xs"></i>
                                 hello@example.com
                             </a>
                             <a href="#">
-                                <i class="fa-brands fa-facebook-f"></i>
+                                <i class="fa-brands fa-facebook-f fa-xs"></i>
                             </a>
                             <a href="#">
-                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-twitter fa-xs"></i>
                             </a>
                             <a href="#">
-                                <i class="fa-brands fa-linkedin-in"></i>
+                                <i class="fa-brands fa-linkedin-in fa-xs"></i>
                             </a>
                         </p>
                     </div>
