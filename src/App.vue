@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="App">
     <InfoBanner />
     <Header />
   </div>
@@ -20,5 +20,7 @@ export default {
 
 <style lang="scss">
 @import './assets/scss/main';
+
+
 
 </style>
