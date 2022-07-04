@@ -4,11 +4,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-8">
-                        <span class="get-in-touch-intro">Send a message</span>
-                        <h3>Get in <span class="title-stylized">Touch</span></h3>
-                        <span class="text-get-in-touch">We will respond to your message as soon as possible.</span>
+                        <span data-aos="fade-up" data-aos-delay="100" class="get-in-touch-intro">Send a message</span>
+                        <h3 data-aos="fade-up" data-aos-delay="200">Get in <span class="title-stylized">Touch</span></h3>
+                        <span data-aos="fade-up" data-aos-delay="400" class="text-get-in-touch">We will respond to your message as soon as possible.</span>
 
-                        <div class="row row-cols-2 g-3 input-two-cols-container">
+                        <div data-aos="fade-left" class="row row-cols-2 g-3 input-two-cols-container">
                             <div class="col">
                                 <div class="form-floating">
                                     <input type="text" class="form-control" id="floatingInput" placeholder="Name">
@@ -43,14 +43,14 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="form pt-3">
+                        <div  data-aos="fade-left" class="form pt-3">
                             <textarea class="form-control" placeholder="Message" id="floatingTextarea2"
                                 style="height: 150px"></textarea>
 
                         </div>
-                        <button class="btn btn-primary">Send</button>
+                        <button  data-aos="fade-left" class="btn btn-primary">Send</button>
                     </div>
-                    <div class="col right-part-get-in-touch">
+                    <div  data-aos="fade-left" data-aos-delay="100" class="col right-part-get-in-touch">
                         <h6>Example Inc.</h6>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                         <p>Praesent diam lacus, dapibus sed imperdiet consecutetur.</p>

@@ -5,20 +5,20 @@
                 <div class="row align-items-center">
                     <div class="col-4 ps-5 pe-5 ">
                         <div class="logistic-service-text-style">
-                            <span>Our business areas</span>
-                            <h3>Logistics Services</h3>
-                            <p>
+                            <span data-aos="fade-up" data-aos-duration="600" >Our business areas</span>
+                            <h3 data-aos="fade-up" data-aos-duration="700" >Logistics Services</h3>
+                            <p data-aos="fade-up" data-aos-duration="800" >
                                 We are leaders in providing logistics services with a set of cutting edge technologies and a team of experienced and renowned professionals.
                             </p>
-                            <ul class="d-flex gap-2 ">
+                            <ul data-aos="fade-up"  data-aos-duration="900" class="d-flex gap-2 ">
                                 <li v-for="service in serviceTag" :key="service.name">
                                     <a :href="'/' + 'service.name'"> {{ service.name }} </a>
                                 </li>
                             </ul>
-                            <button class="btn btn-primary">Read more</button>
+                            <button data-aos="fade-up" data-aos-duration="1000"  class="btn btn-primary">Read more</button>
                         </div>
                     </div>
-                    <div class="col d-flex gap-4 justify-content-center">
+                    <div data-aos="fade-left" data-aos-duration="800" class="col d-flex gap-4 justify-content-center">
                         <LogisticsCard v-for="cardObject in cardServices" :key="cardObject.title" :cardStyle="cardObject" />
                     </div>
                 </div>

@@ -1,10 +1,10 @@
 <template>
     <div>
         <div class="card">
-            <img :src="cardStyle.img" class="card-img-top" :alt="cardStyle.title">
+            <img data-aos="fade-left" data-os-duration="1000"  :src="cardStyle.img" class="card-img-top" :alt="cardStyle.title">
             <div class="card-body">
-                <h5 class="card-title"> {{ cardStyle.title}} </h5>
-                <p class="card-text"> {{ cardStyle.text }} </p>
+                <h5 class="card-title" data-aos="fade-left" data-os-duration="1100"> {{ cardStyle.title}} </h5>
+                <p class="card-text" data-aos="fade-left" data-os-duration="1200"> {{ cardStyle.text }} </p>
             </div>
         </div>
     </div>

@@ -1,7 +1,7 @@
 <template>
     <div class="custom-card">
         <img :src="cardInfo.img" :alt="cardInfo.name">
-        <h4>
+        <h4 data-aos="fade-left" data-aos-delay="500">
             {{ cardInfo.text }}
         </h4>
         <div class="opacity"></div>

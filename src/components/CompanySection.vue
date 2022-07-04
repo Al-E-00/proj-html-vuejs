@@ -4,12 +4,14 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col">
-                        <span class="about-company-section">About the network</span>
-                        <h3 class="title-company-section"><span class="custom-title-style">The</span> Company</h3>
-                        <p class="text-company-section">With all of this expertise and capability comes an unrivalled commitment to customer service.</p>
-                        <Value v-for="value in company" :key="value.title" :companyValue="value"/>
+                        <span data-aos="zoom-in" class="about-company-section">About the network</span>
+                        <h3 data-aos="zoom-in" class="title-company-section"><span class="custom-title-style">The</span> Company</h3>
+                        <p data-aos="zoom-in" class="text-company-section">With all of this expertise and capability comes an unrivalled
+                            commitment to customer service.</p>
+                        <Value data-aos="fade-left" data-aos-duration="1200" v-for="value in company" :key="value.title"
+                            :companyValue="value" />
                     </div>
-                    <div class="col col-right">
+                    <div data-aos="fade-left" data-aos-duration="1000" class="col col-right">
                         <img class="background-left-company-section" src="@/assets/img/about-5.jpg" alt="">
                     </div>
                 </div>
@@ -19,7 +21,7 @@
 </template>
 
 <script>
-    import Value from './_companyValue.vue';
+import Value from './_companyValue.vue';
 export default {
     name: "CompanySection",
     components: {
@@ -55,5 +57,4 @@ export default {
 
 <style lang="scss" scoped>
 @import '../assets/scss/company-section';
-
 </style>
