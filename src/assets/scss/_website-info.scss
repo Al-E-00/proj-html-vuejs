@@ -1,0 +1,23 @@
+.background-website-info {
+    background-color: rgb(12, 12, 14);
+}
+
+.row {
+    padding-top: 2rem;
+    justify-content: center;
+}
+
+.text-section {
+    color: white;
+    font-size: .8rem;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .text-primary {
+        margin-left: .2rem;
+    }
+    i {
+        padding-right: .2rem;
+    }
+}

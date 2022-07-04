@@ -44,6 +44,10 @@
         a {
             text-decoration: none;
             color: white;
+            transition: color .1s ease-in-out;
+            &:hover {
+                color: var(--primary-color);
+            }
         }
         button {
             font-size: .8rem;
