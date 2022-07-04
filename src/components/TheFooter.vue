@@ -2,7 +2,7 @@
     <div>
         <div class="background-image-footer">
             <div class="container">
-                <div class="row justify-content-center">
+                <div class="row justify-content-center gap-4">
                     <div class="col-2">
                         <span id="logo-start">nex </span> <span id="logo-end">gen</span>
                         <p class="intro-text-footer">A Functional HTML Template for Corporate & Business.</p>
@@ -18,13 +18,13 @@
                             Get in touch
                         </button>
                     </div>
-                    <div class="col-2">
+                    <div class="col-2 custom-style-col-footer">
                         <LinkStyle v-for="(option, i) in about" :key="i" :option="option"/>
                     </div>
-                    <div class="col-2">
+                    <div class="col-2 custom-style-col-footer">
                         <LinkStyle v-for="(option, i) in transport" :key="i" :option="option"/>
                     </div>
-                    <div class="col-2">
+                    <div class="col-2 custom-style-col-footer">
                         <LinkStyle v-for="(option, i) in support" :key="i" :option="option"/>
                     </div>
                 </div>

@@ -95,3 +95,12 @@
     color: white;
     font-weight: 500;
 }
+
+/* custom style for the column on the footer */
+
+.custom-style-col-footer {
+    padding-top: 2rem;
+    padding-left: 2.5rem;
+    background-image: linear-gradient(rgba(74, 74, 74, 0.203), rgba(120, 120, 120, 0.008));
+    border-radius: 1rem;
+}

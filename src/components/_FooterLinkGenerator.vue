@@ -1,16 +1,14 @@
 <template>
     <div>
-        <div class="col align-self-center">
-            <h5 class="stylized-title-list-footer"> {{option.title}} </h5>
-            <ul class="stylized-link-list-footer">
-                <li v-for="(option, i) in option.links" :key="i">
-                    <a href="#">
-                        <i class="fa-solid fa-angle-right"></i>
-                        {{ option }}
-                    </a>
-                </li>
-            </ul>
-        </div>
+        <h5 class="stylized-title-list-footer"> {{ option.title }} </h5>
+        <ul class="stylized-link-list-footer">
+            <li v-for="(option, i) in option.links" :key="i">
+                <a href="#">
+                    <i class="fa-solid fa-angle-right"></i>
+                    {{ option }}
+                </a>
+            </li>
+        </ul>
     </div>
 </template>
 
@@ -29,20 +27,24 @@ export default {
 
 <style lang="scss" scoped>
 .stylized-link-list-footer {
-        list-style: none;
+    list-style: none;
     padding: 0;
+
     li {
-        padding: .4rem 0;
+        padding: .3rem 0;
         display: flex;
         align-items: center;
+
         a {
             i {
                 padding-right: .3rem;
             }
+
             text-decoration: none;
             color: var(--text-color-secondary);
             font-size: .8rem;
             transition: color .1s ease-in-out;
+
             &:hover {
                 color: var(--primary-color);
             }
