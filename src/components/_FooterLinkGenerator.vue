@@ -17,7 +17,7 @@ export default {
     name: 'FooterLinkStyles',
     props: {
         option: {
-            type: Array,
+            type: Object,
             required: true
         },
     }

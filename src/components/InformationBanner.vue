@@ -4,11 +4,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col">
-                        <p class="text-style-banner"> 
+                        <p class="text-style-banner" @click="OnClockClick()"> 
                             <a href="#">
                                 <i class="fa-solid fa-clock pe-1 fa-xs"></i>
+                                Open Hours: Mon - Sat - 9:00 - 18:00
                             </a> 
-                            Open Hours: Mon - Sat - 9:00 - 18:00
                         </p>
                     </div>
                     <div class="col text-end">
@@ -40,6 +40,12 @@
 
 <script>
 export default {
+    name: 'InfoBanner',
+    methods: {
+        OnClockClick() {
+            alert('Open Hours: Mon - Sat - 9:00 - 18:00');
+        }
+    }
 
 
 }

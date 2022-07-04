@@ -11,9 +11,15 @@
     color: var(--text-color-secondary);
     font-weight: 200;
     font-size: .9rem;
+    transition: color .2s ease-in-out;
     
     a {
         color: var(--text-color-secondary);
         text-decoration: none;
+        transition: color .1s ease-in-out;
+
+        &:hover {
+            color: var(--primary-color);
+        }
     }
 }
