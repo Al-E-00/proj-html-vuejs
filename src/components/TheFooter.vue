@@ -18,13 +18,13 @@
                             Get in touch
                         </button>
                     </div>
-                    <div data-aos="fade-up" class="col-2 custom-style-col-footer">
+                    <div data-aos="fade-up" data-aos-delay="400" class="col-2 custom-style-col-footer">
                         <LinkStyle v-for="(option, i) in about" :key="i" :option="option"/>
                     </div>
-                    <div data-aos="fade-up" class="col-2 custom-style-col-footer">
+                    <div data-aos="fade-up" data-aos-delay="400" class="col-2 custom-style-col-footer">
                         <LinkStyle v-for="(option, i) in transport" :key="i" :option="option"/>
                     </div>
-                    <div data-aos="fade-up" class="col-2 custom-style-col-footer">
+                    <div data-aos="fade-up" data-aos-delay="400" class="col-2 custom-style-col-footer">
                         <LinkStyle v-for="(option, i) in support" :key="i" :option="option"/>
                     </div>
                 </div>
