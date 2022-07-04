@@ -1,0 +1,97 @@
+.background-image-footer {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url("~/src/assets/img/bg-10.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.row {
+    padding: 6rem 0;
+}
+
+.col {
+    padding: 0 2rem;
+}
+
+
+#logo-start {
+    color: var(--primary-color);
+    background-color: rgba(34, 111, 111, 0.378);
+    padding-left: 1.3rem;
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+    border-top-left-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+#logo-end {
+    color: var(--text-color-secondary);
+    background-color: transparent;
+    padding-left: .2rem;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.intro-text-footer {
+    font-size: .8rem;
+    color: var(--text-color-secondary);
+    padding: 1rem 0;
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+    li {
+        padding: .4rem 0;
+        a {
+            i {
+                padding-right: .3rem;
+            }
+            text-decoration: none;
+            color: var(--text-color-secondary);
+            font-size: .8rem;
+            transition: color .1s ease-in-out;
+            &:hover {
+                color: var(--primary-color);
+            }
+        }
+
+    }
+}
+
+.button-footer {
+    padding: .5rem 1.2rem;
+    color: white;
+    text-transform: uppercase;
+    font-size: .8rem;
+}
+
+.stylized-link-list-footer {
+        list-style: none;
+    padding: 0;
+    li {
+        padding: .4rem 0;
+        display: flex;
+        align-items: center;
+        a {
+            i {
+                padding-right: .3rem;
+            }
+            text-decoration: none;
+            color: var(--text-color-secondary);
+            font-size: .8rem;
+            transition: color .1s ease-in-out;
+            &:hover {
+                color: var(--primary-color);
+            }
+        }
+    }
+}
+
+.stylized-title-list-footer {
+    color: white;
+    font-weight: 500;
+}

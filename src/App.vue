@@ -8,6 +8,7 @@
     <LatestNewsSection />
     <NewsLetterSection />
     <GetInTouchSection />
+    <TheFooter />
   </div>
 </template>
 
@@ -20,6 +21,7 @@ import LogoSection from './components/LogoSection.vue';
 import LatestNewsSection from './components/LatestNewsSection.vue';
 import NewsLetterSection from './components/NewsLetterSection.vue';
 import GetInTouchSection from './components/GetInTouchSection.vue';
+import TheFooter from './components/TheFooter.vue';
 
 
 export default {
@@ -32,7 +34,8 @@ export default {
     LogoSection,
     LatestNewsSection,
     NewsLetterSection,
-    GetInTouchSection
+    GetInTouchSection,
+    TheFooter
 }
 }
 </script>
