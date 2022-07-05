@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="d-flex pb-5">
-            <vc-donut :chartPropriety="chartPropriety" v-bind="chartPropriety">
+            <vc-donut data-aos="zoom-in" data-aos-delay="500" :chartPropriety="chartPropriety" v-bind="chartPropriety">
                 <span class="percentage-number">
                     {{ companyValue.percentage }}
                     <span class="percentage-symbol">
@@ -64,6 +64,7 @@ export default {
     h6 {
         font-size: 1rem;
         font-weight: 500;
+        padding-bottom: .5rem;
     }
 
     p {

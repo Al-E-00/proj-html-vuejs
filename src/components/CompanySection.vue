@@ -35,13 +35,13 @@ export default {
                 {
                     title: 'Leadership',
                     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-                    percentage: '0',
+                    percentage: '35',
                     percentageSymbol: '%',
                     prop: {
-                        size: 65,
+                        size: 70,
                         sections: [
                             {
-                                value: 1,
+                                value: 35,
                                 color: 'rgb(16,	112,	111)'
                             },
                         ],
@@ -56,13 +56,13 @@ export default {
                 {
                     title: 'Psychology',
                     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-                    percentage: '0',
+                    percentage: '75',
                     percentageSymbol: '%',
                     prop: {
-                        size: 65,
+                        size: 70,
                         sections: [
                             {
-                                value: 1,
+                                value: 75,
                                 color: 'rgb(16,	112,	111)'
                             },
                         ],
@@ -77,13 +77,13 @@ export default {
                 {
                     title: 'Flexibility',
                     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-                    percentage: '1',
+                    percentage: '48',
                     percentageSymbol: '%',
                     prop: {
-                        size: 65,
+                        size: 70,
                         sections: [
                             {
-                                value: 1,
+                                value: 48,
                                 color: 'rgb(16,	112,	111)'
                             },
                         ],
