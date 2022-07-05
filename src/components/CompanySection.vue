@@ -1,6 +1,7 @@
 <template>
     <div>
         <div class="background-company-section">
+            <img class="pattern-img-top" src="@/assets/img/dot-pattern-top.svg" alt="">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col">
@@ -18,6 +19,7 @@
                     </div>
                 </div>
             </div>
+            <img class="pattern-img-bottom" src="@/assets/img/dot-pattern-bottom.svg" alt="">
         </div>
     </div>
 </template>
