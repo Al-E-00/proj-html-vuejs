@@ -74,19 +74,18 @@ export default {
         }
     },
     methods: {
-        handleScroll() {
+            handleScroll() {
             this.isUserScrolling = (window.scrollY > 45);
             if (window.scrollY > 45) {
                 this.fixed = true;
             } else {
                 this.fixed = false;
             }
-            console.log(this.fixed);
         }
     },
 
     mounted() {
-        this.handleDebouncedScroll = debounce(this.handleScroll, 5);
+        this.handleDebouncedScroll = debounce(this.handleScroll, 8);
         window.addEventListener('scroll', this.handleDebouncedScroll);
     },
 

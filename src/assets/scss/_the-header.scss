@@ -3,11 +3,10 @@
 .background-the-header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url("~/src/assets/img/jumbo.jpg");
     background-size: cover;
-
 }
 
 .position-fixed {
-    position: fixed;
+    position: sticky;
     width: 100%;
     top: 0;
     background-color: rgb(14, 14, 18);
@@ -16,6 +15,8 @@
 
 /* navbar section */
 .navbar-row {
+    position: absolute;
+    width: 100%;
     padding-top: .5rem;
     padding-bottom: .5rem;
     transition: .5s;
@@ -74,7 +75,7 @@
     .text-row {
         padding-left: 10rem;
         padding-right: 7rem;
-        padding-top: 8rem;
+        padding-top: 10rem;
         padding-bottom: 8rem; 
 
         h1 {
