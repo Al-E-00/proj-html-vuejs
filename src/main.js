@@ -6,6 +6,7 @@ import 'aos/dist/aos.css'
 import Donut from 'vue-css-donut-chart';
 import 'vue-css-donut-chart/dist/vcdonut.css';
 
+
 Vue.use(Donut);
 
 Vue.config.productionTip = false

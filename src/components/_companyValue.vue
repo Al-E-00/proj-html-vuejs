@@ -23,11 +23,11 @@ export default {
     name: "companyValue",
     props: {
         companyValue: {
-            type: Array,
+            type: Object,
             required: true
         },
         chartPropriety: {
-            type: Array,
+            type: Object,
             required: true
         }
     },

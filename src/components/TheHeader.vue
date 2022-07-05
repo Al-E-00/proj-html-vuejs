@@ -1,8 +1,8 @@
 <template>
     <div>
         <div class="background-the-header">
-            <div class="container">
-                <div class="row navbar-row">
+            <div class="container-fluid">
+                <div class="row navbar-row" :class="this.fixed ? 'position-fixed':''">
                     <div class="col align-self-center">
                         <span id="logo-start">nex </span> <span id="logo-end">gen</span>
                     </div>
@@ -38,11 +38,12 @@
 </template>
 
 <script>
+import debounce from 'lodash/debounce';
 export default {
-
     name: 'TheHeader',
     data() {
         return {
+            fixed: false,
             siteSection: [
                 {
                     name: 'home',
@@ -72,7 +73,28 @@ export default {
             ]
         }
     },
+    methods: {
+        handleScroll() {
+            this.isUserScrolling = (window.scrollY > 45);
+            if (window.scrollY > 45) {
+                this.fixed = true;
+            } else {
+                this.fixed = false;
+            }
+            console.log(this.fixed);
+        }
+    },
+
+    mounted() {
+        this.handleDebouncedScroll = debounce(this.handleScroll, 5);
+        window.addEventListener('scroll', this.handleDebouncedScroll);
+    },
+
+    beforeDestroy() {
+        window.removeEventListener('scroll', this.handleDebouncedScroll);
+    }
 }
+
 </script>
 
 <style lang="scss" scoped>
