@@ -1,12 +1,14 @@
 <template>
     <div>
-        <div class="d-flex">
-            <span class="percentage-section">
-                {{ companyValue.percentage }}
-                <span class="percentage-symbol">
-                    {{ companyValue.percentageSymbol }}
+        <div class="d-flex pb-5">
+            <vc-donut :chartPropriety="chartPropriety" v-bind="chartPropriety">
+                <span class="percentage-number">
+                    {{ companyValue.percentage }}
+                    <span class="percentage-symbol">
+                        {{ companyValue.percentageSymbol }}
+                    </span>
                 </span>
-            </span>
+            </vc-donut>
             <div class="text-company-value">
                 <h6> {{ companyValue.title }} </h6>
                 <p> {{ companyValue.text }} </p>
@@ -16,63 +18,54 @@
 </template>
 
 <script>
+
 export default {
-    name: 'companyValue',
+    name: "companyValue",
     props: {
         companyValue: {
-            type: Object,
+            type: Array,
+            required: true
+        },
+        chartPropriety: {
+            type: Array,
             required: true
         }
-    }
+    },
+    data() {
+        return {};
+    },
+
 }
 </script>
 
 <style lang="scss" scoped>
-.percentage-section {
-    align-self: center;
-    position: relative;
-    display: block;
-    margin-bottom: 1.5rem;
-    margin-top: 1.5rem;
-    height: 60px;
-    width: 60px;
-    line-height: 60px;
-    font-weight: 600;
-    background-color: rgb(14, 14, 18);
-    color: white;
-    text-align: center;
+.percentage-number {
     font-size: 1.2rem;
+    font-weight: bold;
     color: var(--text-color-secondary);
-
-    .percentage-symbol {
-        position: absolute;
-        line-height: 65px;
-        height: 65px;
-        font-size: .6rem;
-        font-weight: 300;
-    }
-
+    position: relative;
 }
 
-.percentage-section:after {
-    content: "";
+.percentage-symbol {
+    font-size: .5rem;
+    font-weight: 200;
+    color: var(--text-color-secondary);
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    border: 5px solid rgb(27, 26, 30);
-    z-index: 1;
+    top: 60%;
+    left: 100%;
+    transform: translateY(-50%);
+
 }
 
 .text-company-value {
     padding-left: 1.5rem;
     align-self: center;
+
     h6 {
         font-size: 1rem;
         font-weight: 500;
     }
+
     p {
         font-size: .8rem;
         font-weight: 300;
